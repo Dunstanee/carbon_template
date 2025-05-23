@@ -42,7 +42,7 @@ export default function SideBarMenu({ isMenuTaggled }: SideBarMenuProps) {
         `}
       >
         {/* Close button on mobile */}
-        <div className="flex items-center justify-between md:hidden p-4 border-b">
+        <div className="flex items-center justify-between md:hidden p-4 ">
           <Logo />
           <button onClick={() => setIsOpen(false)}>
             <X size={24} />
@@ -50,7 +50,7 @@ export default function SideBarMenu({ isMenuTaggled }: SideBarMenuProps) {
         </div>
 
         {/* Sidebar content */}
-        <div className="hidden md:block p-4 border-b">
+        <div className="hidden md:block p-4 ">
           <Logo /> 
         </div>
 
